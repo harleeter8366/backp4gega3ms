@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>Drive Mad | Play Free HTML5 Games</title>
+		<meta name="description" content="Drive Mad is an exhilarating car game that challenges you to navigate through tracks laden with obstacles, aiming to cross the finish line intact. Mastering you">
+		<link rel="canonical" href="https://cpsgames.org/game/drive-mad" />
+										<meta property="og:type" content="game">
+				<meta property="og:url" content="https://cpsgames.org/game/drive-mad">
+				<meta property="og:title" content="Drive Mad | Play Free HTML5 Games">
+				<meta property="og:description" content="Drive Mad is an exhilarating car game that challenges you to navigate through tracks laden with obstacles, aiming to cross the finish line intact. Mastering your vehicles speed is crucial to prevent i">
+				<meta property="og:image" content="https://cpsgames.org/thumbs/drive-mad_1.webp">
+				<meta property="robots" content="index, follow">
+				<meta name="revisit-after" content="1 days">
+				<meta name="author" content="cpsgames.org">
+										<meta property="robots" content="index, follow">
+				<meta name="revisit-after" content="1 days">
+				<meta name="author" content="cpsgames.org">
+						<style type="text/css">
+.report-modal {
+  display: none;
+  position: fixed;
+  z-index: 20;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+.report-modal-content {
+  background-color: #fefefe;
+  color: #000;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  max-width: 320px;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.report-label {
+  padding: 0 10px;
+  margin-right: 5px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+</style>
+		
+				
+		<link rel="stylesheet" href="https://cpsgames.org/content/themes/cpsgames/css/bootstrap5.3-min.css">
+		<link rel="stylesheet" href="https://cpsgames.org/content/themes/cpsgames/css/style.css">
+		<link rel="stylesheet" href="https://cpsgames.org/content/themes/cpsgames/fonts/font.css">
+		<style>
+			.slider{--slider-padding:1rem;--slider-column-gap:1rem;--slide-width:15%;--slide-min-width:8rem;position:relative;overflow:hidden}.slider__track{display:flex;overflow-x:auto;-ms-scroll-snap-type:x mandatory;scroll-snap-type:x mandatory;padding-inline:var(--slider-padding);scroll-behavior:smooth;list-style-type:none;padding:0;margin-right:calc(var(--slider-column-gap)* - 1);scrollbar-width:none}.slider__track>*{flex:0 0 var(--slide-width);min-width:var(--slide-min-width);scroll-snap-align:start;scroll-snap-stop:always;padding-right:var(--slider-column-gap)}.slider__track::-webkit-scrollbar{display:none}.slider__buttons [disabled]{border:0;display:none}.slide{display:flex;align-items:center;justify-content:space-between;width:100%;aspect-ratio:1/1;border-radius:1rem;color:#fff;font-size:1.5rem;font-weight:700;height:100%}.slider-link{text-align:center;color:var(--bs-body-bg)!important}.slider:last-child .slider__track>*:last-child{background:#3bd671;border-radius:1rem}.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 20%}.slider.first .slider__track>*:not(:first-child){flex:0 0 5%}@media only screen and (max-width:1311px){.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 30%}}@media only screen and (max-width:918px){.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 40%}}@media only screen and (max-width:590px){.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 100%}.slider.first{--slide-min-width:12rem}}@media only screen and (min-width:1024px){.slider{--slide-width:10%}}@media only screen and (min-width:1440px){.slider{--slide-width:10%}.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 20%}.slider.first .slider__track>*:not(:first-child){flex:0 0 10%}}@media only screen and (max-width:375px){.slider{--slide-min-width:6rem!important}.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 65%}.btn-slider-arrow{height:50%}.btn-slider-arrow{width:75%}.next-btn-icon{background-size:unset!important;padding:30px!important;margin:0!important}.previous-btn-icon{background-size:unset!important;padding:30px!important;margin:0!important}.slider-prev{margin-left:-5px!important}.btn-slider-arrow:active{border:0!important;border-color:rgba(0,0,0,0)!important;background-color:rgba(0,0,0,0)!important}}
+			.rightside-img{width:100%;height:auto;}
+			.small-thumb{max-width:205px}img.small-thumb{max-width:205px;border-radius:10px}img.cat-small-thumb{max-width:196px;height:196px;border-radius:10px}.page-item.disabled .page-link{color:var(--bs-body-bg);pointer-events:none;cursor:auto;background-color:var(--bs-success);border-color:#dee2e6}.game-iframe-container{overflow:hidden;width:100%;min-height:600px}.game-iframe{position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%;z-index:7}.game-info .rating i{margin-right:5px}.relgame-thumb{width:100%}img.relgame-thumb{height:auto;border-radius:10px}.btn-share{width:40px;height:40px;float:left;text-align:center;margin-right:15px}#tpl-comment-section{margin-top:30px;margin-bottom:20px}#comment-form{display:flex;margin-bottom:30px;border-bottom:1px solid #495569}.comment-profile-avatar{margin-right:20px}.comment-profile-avatar img{border-radius:50%;float:left;width:3.6rem;height:3.6rem;max-width:50px;max-height:50px}.comment-form-wrapper{background:#495569;margin-bottom:30px;box-shadow:0 4px 8px 0 rgba(50,50,50,0.1);border-radius:12px;padding:15px;width:100%}textarea.tpl-comment-input{background:#495569;color:#8296a5}textarea.tpl-comment-input:focus,textarea.tpl-comment-input:hover{background:#495569;color:#8296a5}.comment-form-wrapper textarea{padding:0;border:0}.post-comment-btn-wrapper{float:right;margin-top:15px}textarea#comment-input{height:100px}.user-comment-wrapper{display:flex}.tpl-user-comment{border-bottom:1px solid #495569;margin-bottom:30px}.tpl-comment-children .tpl-user-comment:last-child{border-bottom:0}img.tpl-user-comment-avatar{border-radius:50%;float:left;width:3.6rem;height:3.6rem;max-width:50px;max-height:50px;margin-right:20px}.tpl-comment-children img.tpl-user-comment-avatar{max-width:40px;max-height:40px}.tpl-comment-author{font-weight:bold}.tpl-user-comment .comment-content{margin-bottom:20px;width:100%}.tpl-comment-timestamp{margin-top:3px;font-size:15px;color:#938fb5}.tpl-comment-text{margin-top:13px;white-space:unset}.comment-actions{margin-top:15px}.comment-action-right{float:right}.comment-action-left{float:left}.tpl-comment-children{display:block;margin-left:70px}.tpl-reply-form{display:flex}.comment-reply-wrapper{margin-left:70px;background:#495569;margin-bottom:30px;box-shadow:0 4px 8px 0 rgba(50,50,50,0.1);border-radius:12px;padding:15px;width:100%}textarea.tpl-reply-input{background:#495569;color:#8296a5}textarea.tpl-reply-input:focus{background:#495569;color:#8296a5}.comment-reply-wrapper textarea{padding:0;border:0}.reply-action-buttons{float:right;margin-top:15px}.tpl-btn-cancel-reply{color:#938fb5}a.tpl-comment-reply,a.tpl-btn-show-replies,a.tpl-btn-hide-replies{color:#6d6b7d}.tpl-post-comment-btn,.tpl-btn-send-reply{background-color:#4848ac;border:0}#tpl-btn-load-more-comments{color:#938fb5}.comment-require-login-wrapper{display:flex;margin-bottom:40px}.comment-require-login-wrapper .comment-alert{padding:10px;background-color:#495569;text-align:center;width:100%;border-radius:8px}#mobile-play{position:relative}.mobile-thumb-play{background:#000;overflow:hidden}.mobile-thumb-play img{width:100%;opacity:.7}#mobile-play-btn{position:absolute;top:50%;left:50%;font-size:100px;color:#fff;transform:translate(-50%,-50%)}.bi-play-circle-fill::before{content:"\f4f2"}.bi::before,[class^="bi-"]::before,[class*=" bi-"]::before{display:inline-block;font-family:bootstrap-icons!important;font-style:normal;font-weight:normal!important;font-variant:normal;text-transform:none;line-height:1;vertical-align:-.125em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.custom-h3{font-size:17px!important}.custom-h4{font-size:16.5px!important}##cookieConsentBanner{z-index:99}@media(min-width:768px){.mb-md-2{margin-bottom:.5rem!important}.mb-md-3{margin-bottom:1rem!important}.mb-md-4{margin-bottom:1.5rem!important}.mb-md-5{margin-bottom:3rem!important}.mt-md-1{margin-top:.25rem!important}.mt-md-3{margin-top:1rem!important}.mt-md-4{margin-top:1.5rem!important}}@media only screen and (max-width:991px){.small-thumb,.cat-small-thumb{width:100%!important;height:auto!important}}@media only screen and (min-width:992px){.main{min-height:600px}}.green-shadow{box-shadow:0 22px 25px rgba(7,128,49,0.3);border-radius:30px}
+			@media only screen and (min-width: 992px) {
+				#div-vi-1718600901 {
+					width: 728px !important;
+					height: 90px !important;
+				}
+			}
+		</style>
+			<style>
+		#cookieConsentBanner {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: #333;
+			color: white;
+			padding: 1em;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.cookie-consent-msg {
+			text-align: left;
+			flex: 1;
+		}
+		.cookie-consent-actions {
+			text-align: right;
+		}
+		@media (max-width: 767px) {
+			#cookieConsentBanner {
+				flex-direction: column;
+				align-items: flex-start;
+			}
+			.cookie-consent-msg, .cookie-consent-actions {
+				width: 100%;
+				text-align: center;
+				margin-bottom: 0.5em;
+			}
+		}
+	</style>
+					<script type="text/javascript" src="//cdn.vlitag.com/w/a101f699-fea5-4705-9bf3-ce82b1017637.js" async defer></script>
+		<script>var vitag = vitag || {};vitag.gdprShowConsentToolButton = false;</script>
+		<script type="text/javascript" src="//cdn.vlitag.com/ata/adv/a101f699-fea5-4705-9bf3-ce82b1017637.js" async defer></script>
+	</head>
+	<body>
+		<header class="header z-3 sticky">
+			<nav class="navbar navbar-expand-lg py-0">
+				<div class="side-header" style="display: block;"></div>
+				<div class="container-fluid">
+					<button class="btn btn-secondary p-0 rounded-5 me-md-3 d-block d-md-none" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasmenu" aria-controls="offcanvasmenu">
+						<img src="https://cpsgames.org/images/left-sidebar-icon.svg" width="18" height="18" alt="Left Sidebar Menu Open Icon"
+							class="m-2">
+					</button>
+					<a class="navbar-brand logo-center" href="https://cpsgames.org/"><img src="https://cpsgames.org/images/logo.webp" width="191" height="55"
+							alt="CPS Games Logo">
+					</a>
+					<form class="position-relative mx-auto my-3 search-bar" action="https://cpsgames.org/index.php">
+						<input type="hidden" name="viewpage" value="search">
+						<input type="text" class="form-control searchInput search" placeholder="Search" name="slug" minlength="2" required>
+						<button class="btn end-0 position-absolute top-0" type="submit">
+							<img src="https://cpsgames.org/images/search-icon.svg" width="18" height="18" alt="search icon ">
+						</button>
+					</form>
+					<div class="d-none d-md-block">
+						<a class="btn btn-dark p-2 px-lg-3" href="https://cpsgames.org/page/developer">Developer</a>
+						<a class="btn btn-dark p-2 px-lg-3" href="https://cpsgames.org/page/about">About</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasmenu" aria-labelledby="offcanvasmenuLabel">
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title" id="offcanvasmenuLabel"><a class="navbar-brand logo-center" href="#"><img
+							src="https://cpsgames.org/images/logo.webp" width="191" height="55" alt="CPS Games Logo">
+					</a></h5>
+				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<div id="nav-content dropdown-menu">
+					
+					<a class="nav-button" href="https://cpsgames.org/"><i class="fas nav-icon home-icon p-1"></i><span>Home</span></a>
+					<a class="nav-button" href="https://cpsgames.org/new-games"><i class="fas nav-icon new-icon p-1"></i><span>New</span></a>
+					<a class="nav-button" href="https://cpsgames.org/trending-games"><i class="fas nav-icon trending-icon p-1"></i><span>Trending Now</span></a>
+					<a class="nav-button" href="https://cpsgames.org/random-games"><i class="fas nav-icon random-icon p-1"></i><span>Random</span></a>
+					<hr />
+
+												<a class="nav-button " href="https://cpsgames.org/category/io-games">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/io-icon.svg')"></i>
+							<span>.io Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/2-player">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/twoplayer-icon.svg')"></i>
+							<span>2 Player Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/action">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/action-icon.svg')"></i>
+							<span>Action Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/adventure">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/adventure-icon.svg')"></i>
+							<span>Adventure Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/animals">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/animal-icon.svg')"></i>
+							<span>Animals</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/arcade">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/arcade-icon.svg')"></i>
+							<span>Arcade Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/board">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/board-icon.svg')"></i>
+							<span>Board</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/car">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/car-icon.svg')"></i>
+							<span>Car</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/cards">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/card-icon.svg')"></i>
+							<span>Cards</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/classic">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/classic-icon.svg')"></i>
+							<span>Classic</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/clicker">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/clicker-icon.svg')"></i>
+							<span>Clicker</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/cooking">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/cooking-icon.svg')"></i>
+							<span>Cooking</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/dress-up">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/dressup-icon.svg')"></i>
+							<span>Dress up</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/driving">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/driving-icon.svg')"></i>
+							<span>Driving</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/educational">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/educational-icon.svg')"></i>
+							<span>Educational</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/fighting">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/fighting-icon.svg')"></i>
+							<span>Fighting</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/funny">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/funny-icon.svg')"></i>
+							<span>Funny</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/girl">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/girls-icon.svg')"></i>
+							<span>Girl</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/match-3">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/match-3-icon.svg')"></i>
+							<span>Match 3</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/multiplayer">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/multiplayer-icon.svg')"></i>
+							<span>Multiplayer</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/parkour">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/parkour-icon.svg')"></i>
+							<span>Parkour</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/puzzle">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/puzzle-icon.svg')"></i>
+							<span>Puzzle</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/shooting">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/shooting-icon.svg')"></i>
+							<span>Shooting</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/simulation">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/simulation-icon.svg')"></i>
+							<span>Simulation</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/skill">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/skill-icon.svg')"></i>
+							<span>Skill</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/sports">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/sport-icon.svg')"></i>
+							<span>Sports</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/stickman">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/other.svg')"></i>
+							<span>Stickman</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/strategy">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/strategy-icon.svg')"></i>
+							<span>Strategy</span>
+							</a>
+												<hr />
+					<div id="nav-content-highlight" class="d-none d-md-block"></div>
+					<div id="nav-footer-content">
+						<ul class="list-unstyled text-start ms-3">
+							<li><a href="https://cpsgames.org/page/about" class="text-secondary">About</a></li>
+							<li><a href="https://cpsgames.org/page/developer" class="text-secondary">Developer</a></li>
+							<li><a href="https://cpsgames.org/page/terms" class="text-secondary">Terms & conditions</a></li>
+							<li><a href="https://cpsgames.org/page/privacy" class="text-secondary">Privacy</a></li>
+							<li><a href="https://cpsgames.org/" class="text-secondary">All games</a></li>
+							<p>© 2024 cpsgames.org</p>
+						</ul>
+					</div>
+					<hr>
+					<a class="nav-button ms-1" href="https://cpsgames.org/page/contact"><i class="fas nav-icon contact-icon p-1"></i><span class="ms-2">Contact
+							us</span>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="content container-fluid pt-6">
+			<div class="side me-2 d-none d-md-flex">
+				<div id="nav-bar">
+					<input id="nav-toggle" type="checkbox" checked />
+					<div id="nav-header">
+						<label for="nav-toggle" class=""><img src="https://cpsgames.org//images/nav-toggle-icon-close.svg" width="40"
+								height="40" alt="open close icon for menu" class="nav-toggle-burger"></label>
+						
+					</div>
+					<div id="nav-content">
+						<a class="nav-button" href="https://cpsgames.org/"><i class="fas nav-icon home-icon p-1"></i><span>Home</span></a>
+						<a class="nav-button" href="https://cpsgames.org/new-games"><i class="fas nav-icon new-icon p-1"></i><span>New</span></a>
+						<a class="nav-button" href="https://cpsgames.org/trending-games"><i class="fas nav-icon trending-icon p-1"></i><span>Trending Now</span></a>
+						<a class="nav-button" href="https://cpsgames.org/random-games"><i class="fas nav-icon random-icon p-1"></i><span>Random</span></a>
+						<hr />
+														<a class="nav-button " href="https://cpsgames.org/category/io-games">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/io-icon.svg')"></i>
+								<span>.io Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/2-player">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/twoplayer-icon.svg')"></i>
+								<span>2 Player Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/action">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/action-icon.svg')"></i>
+								<span>Action Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/adventure">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/adventure-icon.svg')"></i>
+								<span>Adventure Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/animals">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/animal-icon.svg')"></i>
+								<span>Animals</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/arcade">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/arcade-icon.svg')"></i>
+								<span>Arcade Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/board">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/board-icon.svg')"></i>
+								<span>Board</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/car">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/car-icon.svg')"></i>
+								<span>Car</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/cards">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/card-icon.svg')"></i>
+								<span>Cards</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/classic">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/classic-icon.svg')"></i>
+								<span>Classic</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/clicker">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/clicker-icon.svg')"></i>
+								<span>Clicker</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/cooking">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/cooking-icon.svg')"></i>
+								<span>Cooking</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/dress-up">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/dressup-icon.svg')"></i>
+								<span>Dress up</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/driving">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/driving-icon.svg')"></i>
+								<span>Driving</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/educational">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/educational-icon.svg')"></i>
+								<span>Educational</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/fighting">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/fighting-icon.svg')"></i>
+								<span>Fighting</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/funny">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/funny-icon.svg')"></i>
+								<span>Funny</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/girl">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/girls-icon.svg')"></i>
+								<span>Girl</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/match-3">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/match-3-icon.svg')"></i>
+								<span>Match 3</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/multiplayer">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/multiplayer-icon.svg')"></i>
+								<span>Multiplayer</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/parkour">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/parkour-icon.svg')"></i>
+								<span>Parkour</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/puzzle">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/puzzle-icon.svg')"></i>
+								<span>Puzzle</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/shooting">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/shooting-icon.svg')"></i>
+								<span>Shooting</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/simulation">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/simulation-icon.svg')"></i>
+								<span>Simulation</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/skill">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/skill-icon.svg')"></i>
+								<span>Skill</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/sports">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/sport-icon.svg')"></i>
+								<span>Sports</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/stickman">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/other.svg')"></i>
+								<span>Stickman</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/strategy">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/strategy-icon.svg')"></i>
+								<span>Strategy</span>
+								</a>
+														<hr />
+						<div id="nav-content-highlight" class="d-none d-md-block"></div>
+					</div>
+					
+					<div id="nav-footer">
+						<div id="nav-footer-content">
+							<ul class="list-unstyled text-start ms-3">
+								<li><a href="https://cpsgames.org/page/about">About</a></li>
+								<li><a href="https://cpsgames.org/page/developer">Developer</a></li>
+								<li><a href="https://cpsgames.org/page/terms">Terms & conditions</a></li>
+								<li><a href="https://cpsgames.org/page/privacy">Privacy</a></li>
+								<li><a href="https://cpsgames.org/">All games</a></li>
+								<p>© 2024 cpsgames.org</p>
+							</ul>
+						</div>
+						<hr>
+						<a class="nav-button ms-1" href="https://cpsgames.org/page/contact"><i class="fas nav-icon contact-icon p-1"></i><span class="ms-2">Contact us</span></a>
+					</div>
+				</div>
+			</div>
+
+		
+<p></p>
+<div class="col-md-11 col-12 main pt-4">
+	<div class="row justify-content-evenly pe-md-5">
+		<div class="col-xl-1 px-1 sidecolumn">
+			<div class="d-flex flex-column">
+				<a href="https://cpsgames.org/game/halloween-puzzle"><img src="https://cpsgames.org/thumbs/halloween-puzzle_2.webp" width="auto" height="auto"
+										alt="Halloween Puzzle"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/ultimate-boxing"><img src="https://cpsgames.org/thumbs/ultimate-boxing_2.webp" width="auto" height="auto"
+										alt="Ultimate Boxing"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/total-recoil"><img src="https://cpsgames.org/thumbs/total-recoil_2.webp" width="auto" height="auto"
+										alt="Total Recoil"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/temple-run-2"><img src="https://cpsgames.org/thumbs/temple-run-2_2.webp" width="auto" height="auto"
+										alt="Temple Run 2"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/geometry-dash-mr-dubstep"><img src="https://cpsgames.org/thumbs/geometry-dash-mr-dubstep_2.webp" width="auto" height="auto"
+										alt="Geometry Dash Mr Dubstep"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/swordman-reforged"><img src="https://cpsgames.org/thumbs/swordman-reforged_2.webp" width="auto" height="auto"
+										alt="Swordman: Reforged"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/parkour-block-3d"><img src="https://i.ibb.co/YR31qHw/thumb-2.png" width="auto" height="auto"
+										alt="Parkour Block 3D"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/hover-racer-drive"><img src="https://cpsgames.org/thumbs/hover-racer-drive_2.webp" width="auto" height="auto"
+										alt="Hover Racer Drive"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/candy-jumps"><img src="https://cpsgames.org/thumbs/candy-jumps_2.webp" width="auto" height="auto"
+										alt="Candy Jumps"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/moto-x3m"><img src="https://cpsgames.org/thumbs/moto-x3m_2.webp" width="auto" height="auto"
+										alt="Moto X3M"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/flappy-bird-night-farm-mode"><img src="https://cpsgames.org/games/flappy-bird-night-farm-mode/thumb_2.png" width="auto" height="auto"
+										alt="Flappy Bird Night Farm Mode"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/pixel-on-titan"><img src="https://cpsgames.org/thumbs/pixel-on-titan_2.webp" width="auto" height="auto"
+										alt="Pixel on Titan"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/shark-io"><img src="https://cpsgames.org/thumbs/shark-io_2.webp" width="auto" height="auto"
+										alt="Shark.io"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/justfall-lol"><img src="https://cpsgames.org/thumbs/justfall-lol_2.webp" width="auto" height="auto"
+										alt="JustFall.LOL"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/stack-ball"><img src="https://cpsgames.org/thumbs/stack-ball_2.webp" width="auto" height="auto"
+										alt="Stack Ball"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/2048-x2-legend"><img src="https://cpsgames.org/thumbs/2048-x2-legend_2.webp" width="auto" height="auto"
+										alt="2048 X2 Legend"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/tanuki-sunset"><img src="https://cpsgames.org/thumbs/tanuki-sunset_2.webp" width="auto" height="auto"
+										alt="Tanuki Sunset"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/funny-daycare"><img src="https://cpsgames.org/thumbs/funny-daycare_2.webp" width="auto" height="auto"
+										alt="Funny Daycare"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/level-devil"><img src="https://cpsgames.org/thumbs/level-devil_2.webp" width="auto" height="auto"
+										alt="Level Devil"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a><a href="https://cpsgames.org/game/domino-battle"><img src="https://cpsgames.org/thumbs/domino-battle_2.webp" width="auto" height="auto"
+										alt="Domino Battle"
+										class="img-fluid sidecolumn-img mx-auto d-block thumbnail-img p-1">
+								</a>			</div>
+		</div>
+		<div class="col-lg-9 col-xl-8 col-12 mb-4">
+			<div class="bg-body-secondary d-flex justify-content-center mb-3 game-section-sample-bg">
+				<div class="d-flex flex-column align-items-center justify-content-center game-section">
+					<div class="game-content" data-id="420">
+						<div id="allow_mobile_version"></div>						<div id="mobile-play" style="display: none;">
+							<div class="mobile-thumb-play">
+								<img src="/thumbs/drive-mad_1.webp">
+							</div>
+							<div id="mobile-play-btn">
+								<i class="bi bi-play-circle-fill"></i>
+							</div>
+						</div>
+						<div class="game-iframe-container" id="game-player">
+							<div id="mobile-back-button" draggable="true">
+								<i class="bi bi-x-circle-fill"></i>
+							</div>
+							<iframe class="game-iframe" id="game-area" src="https://cpsgames.org/splash/drive-mad" width="720" height="1080" scrolling="no" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="bg-body-secondary p-3 py-2 rounded-2 d-md-flex justify-content-between align-items-center mb-3">
+				<h1 class="h2 mb-sm-0">Drive Mad</h1>
+				<div class="d-flex align-items-center b-action">
+					<div class="rating-component me-3">
+						<div class="rating-buttons">
+														<a class="button like">
+								<img src="https://cpsgames.org/images/like-icon.svg" alt="Like Icon" width="20" height="20"
+									class="me-2" id="upvote" data-id="420">
+							</a>
+							<a class="button dislike">
+								<img src="https://cpsgames.org/images/dislike-icon.svg" alt="dislike Icon" width="20"
+									height="20" class="me-2" id="downvote" data-id="420">
+							</a>
+						</div>
+						<div class="sentiment">
+							<div id="positive-bar"></div>
+						</div>
+					</div>
+										<a href="#" class="bg-third rounded-4 p-2 px-md-3 fw-medium text-white me-1 me-sm-3 f14" id="report-game">
+						<img src="https://cpsgames.org/images/feedback-icon.svg" width="20" height="20"
+							alt="Feedback Image" class="me-1">
+							Report
+					</a>
+										<button class="btn bg-third p-0" onclick="open_fullscreen()">
+						<img src="https://cpsgames.org/images/fullscreen-icon.svg" width="20" height="20"
+							alt="Fullscreen Image" class="m-2">
+					</button>
+				</div>
+			</div>
+			<div class="row justify-content-evenly mb-3">
+				<div class="col-lg-12 col">
+					<div class="row mb-2">
+						<div id="div-vi-1718600901" style="width: 300px;height: 250px;border: 1px solid #EEEEEE;margin: 0 auto;display: flex;justify-content: center;align-items: center;font-weight: bold;color: #EEEEEE;"><span></span></div>
+						<script type="text/javascript">
+							(vitag.Init = window.vitag.Init || []).push(function () {
+								if (viAPItag.mobileDetect()) {
+									document.getElementById("div-vi-1718600901").innerHTML = '<div class="adsbyvli" style="width:300px;height:250px;display:inline-block;" data-ad-slot="pw_32431"></div>';
+									viAPItag.display("pw_32431");
+								} else {
+									document.getElementById("div-vi-1718600901").innerHTML = '<div class="adsbyvli" style="width:728px;height:90px;display:inline-block;" data-ad-slot="pw_35158"></div>';
+									viAPItag.display("pw_35158");
+								}
+							})
+						</script>
+					</div>
+				</div>
+				<div class="col-xxl-10 col">
+					<div class="row mb-3">
+						<div class="col-4 col-lg-3 p-2">
+										<a href="https://cpsgames.org/game/tomb-of-the-mask"><img src="https://cpsgames.org/thumbs/tomb-of-the-mask_2.webp" width="auto" height="auto"
+												alt="Tomb Of The Mask"
+												class="img-fluid mdgame-img mx-auto d-block thumbnail-img">
+										</a>
+									</div><div class="col-4 col-lg-3 p-2">
+										<a href="https://cpsgames.org/game/thumb-fighter-halloween"><img src="https://cpsgames.org/thumbs/thumb-fighter-halloween_2.webp" width="auto" height="auto"
+												alt="Thumb Fighter Halloween"
+												class="img-fluid mdgame-img mx-auto d-block thumbnail-img">
+										</a>
+									</div><div class="col-4 col-lg-3 p-2">
+										<a href="https://cpsgames.org/game/penalty-shootout-multi-league"><img src="https://cpsgames.org/thumbs/penalty-shootout-multi-league_2.webp" width="auto" height="auto"
+												alt="Penalty Shootout Multi League"
+												class="img-fluid mdgame-img mx-auto d-block thumbnail-img">
+										</a>
+									</div><div class="col-4 col-lg-3 p-2">
+										<a href="https://cpsgames.org/game/google-doodle-baseball"><img src="https://cpsgames.org/thumbs/google-doodle-baseball_2.webp" width="auto" height="auto"
+												alt="Google Doodle Baseball"
+												class="img-fluid mdgame-img mx-auto d-block thumbnail-img">
+										</a>
+									</div>					</div>
+					<div
+						class="row justify-content-evenly p-2 bg-body-secondary rounded-2 mb-3 mx-1 mx-sm-0 f14">
+						<div class="col-md-8 col-12 pt-3 pb-2">
+							<div class="d-sm-flex">
+								<h2 class="h4 fw-semibold me-3">Drive Mad</h2>
+								<a href="https://www.facebook.com/sharer/sharer.php?u=https://cpsgames.org/game/drive-mad" target="_blank" class="btn-share"><img src="https://cpsgames.org//content/themes/cpsgames/images/facebook.png" alt="share" class="social-icon" width="40" height="40"></a>
+								<a href="https://twitter.com/intent/tweet?url=https://cpsgames.org/game/drive-mad" target="_blank" class="btn-share"><img src="https://cpsgames.org//content/themes/cpsgames/images/twitter.png" alt="share" class="social-icon" width="40" height="40"></a>
+							</div>
+							<table class="my-4">
+								<tr>
+									<td class="text-secondary">Rating:</td>
+									<td>
+										<div class="rating">
+																						<b>3.9</b> (103 Reviews)
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td class="text-secondary">Played</td>
+									<td class="text-success">109645 times.</td>
+								</tr>
+								<tr>
+									<td class="text-secondary pe-md-4">Classification:</td>
+									<td>
+										<a href="https://cpsgames.org/">Games</a> » <a href="https://cpsgames.org/category/car">Car</a>
+									</td>
+								</tr>
+							</table>
+							<hr>
+							<div class="mb-3">
+								<div class="single-description">
+									Drive Mad is an exhilarating car game that challenges you to navigate through tracks laden with obstacles, aiming to cross the finish line intact. Mastering your vehicle's speed is crucial to prevent it from flipping amidst the myriad of daring stunts and inventive obstacles presented across each level. <br />
+<br />
+The game tests your driving prowess and ability to tackle increasingly complex courses with precision. Are you equipped with the skills required to conquer every level in Drive Mad, proving your mettle in this thrilling automotive adventure?								</div>
+								<br>
+								<h3 class="highlight-text custom-h3">Controls:</h3>
+								<div class="single-instructions">
+									Steer forward - W, D, X, Up arrow, Right arrow, Mouse click<br />
+<br />
+Steer backward - S, A, Z, Down arrow, Left arrow								</div>
+															</div>
+							<div class="d-flex flex-wrap mt-2">
+								<a href="https://cpsgames.org/category/car" class="bg-third p-2 px-3 me-2 mb-2 rounded-2 fw-medium cat-item"><span class="s-icon"><img src="https://cpsgames.org/content/themes/cpsgames/images/icon/other.svg" alt="Car" width="30" height="30"></span>Car</a>							</div>
+														<div class="mt-4"></div><h5 class="highlight-text">Comments</h5>			<div id="tpl-comment-section" data-id="420">
+									<div class="comment-require-login-wrapper">
+						<div class="comment-profile-avatar">
+							<img src="https://cpsgames.org/images/default_profile.png">
+						</div>
+						<div class="comment-alert">
+							You must log in to write a comment.						</div>
+					</div>
+								<div id="tpl-comment-list">
+				</div>
+				<!-- Comment template -->
+				<div id="tpl-comment-template" style="display:none;">
+					<!-- User comment template -->
+					<div class="tpl-user-comment" data-id="{{comment_id}}">
+						<div class="user-comment-wrapper">
+							<div class="user-comment-avatar">
+								<img class="tpl-user-comment-avatar" src="{{profile_picture_url}}" alt="User Avatar">
+							</div>
+							<div class="comment-content">
+								<div class="tpl-comment-author">{{fullname}}</div>
+								<div class="tpl-comment-timestamp">{{created}}</div>
+								<div class="tpl-comment-text">{{content}}</div>
+								<div class="comment-actions">
+									<div class="comment-action-left">
+										<div class="reply-wrapper">
+											<a href="#" onclick="return false;" class="tpl-btn-show-replies" data-id="{{comment_id}}"><i class="fa fa-comment-o" aria-hidden="true"></i> Show replies</a>
+											<a href="#" onclick="return false;" class="tpl-btn-hide-replies" data-id="{{comment_id}}"><i class="fa fa-comment-o" aria-hidden="true"></i> Hide replies</a>
+										</div>
+									</div>
+																	</div>
+							</div>
+						</div>
+						<div class="tpl-reply-form-wrapper"></div>
+						<div class="tpl-comment-children"></div>
+					</div>
+					<!-- Reply form template -->
+					<div class="tpl-reply-form">
+						<div class="comment-reply-wrapper">
+							<textarea class="form-control tpl-reply-input" placeholder="Your reply..."></textarea>
+							<div class="reply-action-buttons">
+								<button class="btn btn-sm tpl-btn-cancel-reply" data-id="{{comment_id}}">Cancel</button>
+								<button class="btn btn-primary btn-sm tpl-btn-send-reply" data-id="{{comment_id}}">Reply</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="tpl-btn-load-more-comments" class="btn" style="display: none;">Load more comments <i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+			</div>
+									</div>
+						<div class="col-md-4 col-12 py-4">
+							<div class="border border-secondary p-2 rounded-2 h-100">
+								<div class='adsbyvli'  data-ad-slot='pw_24460'></div>
+								<script type='text/javascript'>(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display('pw_24460') })</script>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-evenly mb-3">
+						<div class="col-12">
+							<h2 class="mb-1 fw-semibold">Related <span class="text-success">Games</span>
+							</h2>
+						</div>
+													<div class="col-4 col-lg-3 p-2">
+								<a href="https://cpsgames.org/game/jelly-truck"><img src="https://cpsgames.org/thumbs/jelly-truck_2.webp" alt="Jelly Truck"
+										class="relgame-thumb img-fluid mx-auto d-block thumbnail-img">
+								</a>
+							</div>
+													<div class="col-4 col-lg-3 p-2">
+								<a href="https://cpsgames.org/game/mayhem-racing"><img src="https://cpsgames.org/thumbs/mayhem-racing_2.webp" alt="Mayhem Racing"
+										class="relgame-thumb img-fluid mx-auto d-block thumbnail-img">
+								</a>
+							</div>
+													<div class="col-4 col-lg-3 p-2">
+								<a href="https://cpsgames.org/game/cyber-cars-punk-racing"><img src="https://cpsgames.org/thumbs/cyber-cars-punk-racing_2.webp" alt="Cyber Cars Punk Racing"
+										class="relgame-thumb img-fluid mx-auto d-block thumbnail-img">
+								</a>
+							</div>
+													<div class="col-4 col-lg-3 p-2">
+								<a href="https://cpsgames.org/game/parking-fury"><img src="https://cpsgames.org/thumbs/parking-fury_2.webp" alt="Parking Fury"
+										class="relgame-thumb img-fluid mx-auto d-block thumbnail-img">
+								</a>
+							</div>
+													<div class="col-4 col-lg-3 p-2">
+								<a href="https://cpsgames.org/game/real-cars-in-city"><img src="https://cpsgames.org/thumbs/real-cars-in-city_2.webp" alt="Real Cars In City"
+										class="relgame-thumb img-fluid mx-auto d-block thumbnail-img">
+								</a>
+							</div>
+													<div class="col-4 col-lg-3 p-2">
+								<a href="https://cpsgames.org/game/mad-day"><img src="https://cpsgames.org/thumbs/mad-day_2.webp" alt="Mad Day"
+										class="relgame-thumb img-fluid mx-auto d-block thumbnail-img">
+								</a>
+							</div>
+													<div class="col-4 col-lg-3 p-2">
+								<a href="https://cpsgames.org/game/go-kart-go-ultra"><img src="https://cpsgames.org/thumbs/go-kart-go-ultra_2.webp" alt="Go Kart Go Ultra"
+										class="relgame-thumb img-fluid mx-auto d-block thumbnail-img">
+								</a>
+							</div>
+													<div class="col-4 col-lg-3 p-2">
+								<a href="https://cpsgames.org/game/desert-car-racing"><img src="https://cpsgames.org/thumbs/desert-car-racing_2.webp" alt="Desert Car Racing"
+										class="relgame-thumb img-fluid mx-auto d-block thumbnail-img">
+								</a>
+							</div>
+											</div>
+				</div>
+				<div class="col-xl-2 sidecolumn">
+					<div class="d-flex flex-column">
+						<a href="https://cpsgames.org/game/slope-city"><img src="https://cpsgames.org/thumbs/slope-city_2.webp" width="auto" height="auto"
+												alt="Slope City "
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a><a href="https://cpsgames.org/game/gateway-shootout"><img src="https://cpsgames.org/thumbs/gateway-shootout_2.webp" width="auto" height="auto"
+												alt="Gateway Shootout"
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a><a href="https://cpsgames.org/game/endless-truck"><img src="https://cpsgames.org/thumbs/endless-truck_2.webp" width="auto" height="auto"
+												alt="Endless Truck"
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a><a href="https://cpsgames.org/game/dd-blocky"><img src="https://cpsgames.org/thumbs/dd-blocky_2.webp" width="auto" height="auto"
+												alt="DD Blocky"
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a><a href="https://cpsgames.org/game/cannon-basketball-3"><img src="https://cpsgames.org/thumbs/cannon-basketball-3_2.webp" width="auto" height="auto"
+												alt="Cannon Basketball 3"
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a><a href="https://cpsgames.org/game/we-skate"><img src="https://cpsgames.org/thumbs/we-skate_2.webp" width="auto" height="auto"
+												alt="We Skate"
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a><a href="https://cpsgames.org/game/crazy-cars"><img src="https://cpsgames.org/thumbs/crazy-cars_2.webp" width="auto" height="auto"
+												alt="Crazy Cars"
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a><a href="https://cpsgames.org/game/cover-orange-gangsters"><img src="https://cpsgames.org/thumbs/cover-orange-gangsters_2.webp" width="auto" height="auto"
+												alt="Cover Orange Gangsters"
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a><a href="https://cpsgames.org/game/iron-snout"><img src="https://cpsgames.org/thumbs/iron-snout_2.webp" width="auto" height="auto"
+												alt="Iron Snout"
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a><a href="https://cpsgames.org/game/papa-s-cheeseria"><img src="https://cpsgames.org/thumbs/papa-s-cheeseria_2.webp" width="auto" height="auto"
+												alt="Papa's Cheeseria"
+												class="img-fluid sidecolumn2-img mx-auto d-block thumbnail-img p-1">
+										</a>					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-3 col-xl col-12 mb-4">
+			<div class="bg-body-secondary rounded-2 p-3 px-0">
+				<div class="px-1">
+					<div class="border border-secondary rounded-2 my-1 mb-4" style="min-height: 260px;">
+						<div class='adsbyvli' style='width:300px;height:250px;display:inline-block;' data-ad-slot='pw_32431' ></div> <script type='text/javascript'>(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display('pw_32431') })</script>
+					</div>
+				</div>
+				<div class="row px-3 my-3">
+					<div class="adsbyvli" style="width:300px;height:250px;display:inline-block;" data-ad-slot="pw_40797"></div>
+					<script type="text/javascript">(vitag.Init = window.vitag.Init || []).push(function () { viAPItag.display('pw_40797') })</script>
+				</div>
+				<h2 class="mb-3 fw-semibold px-3">Popular <span class="text-success">Games</span></h2>
+				<div class="row px-3">
+					<div class="col-4 col-lg-6 mb-2 rightside-img-col">
+									<a href="https://cpsgames.org/game/geometry-dash"><img src="https://cpsgames.org/thumbs/geometry-dash_2.webp" width="auto" height="auto"
+											alt="Geometry Dash"
+											class="img-fluid rightside-img mx-auto d-block thumbnail-img">
+									</a>
+								</div><div class="col-4 col-lg-6 mb-2 rightside-img-col">
+									<a href="https://cpsgames.org/game/1v1-lol"><img src="https://cpsgames.org/thumbs/1v1-lol_2.webp" width="auto" height="auto"
+											alt="1v1.LOL"
+											class="img-fluid rightside-img mx-auto d-block thumbnail-img">
+									</a>
+								</div><div class="col-4 col-lg-6 mb-2 rightside-img-col">
+									<a href="https://cpsgames.org/game/drive-mad"><img src="https://cpsgames.org/thumbs/drive-mad_2.webp" width="auto" height="auto"
+											alt="Drive Mad"
+											class="img-fluid rightside-img mx-auto d-block thumbnail-img">
+									</a>
+								</div><div class="col-4 col-lg-6 mb-2 rightside-img-col">
+									<a href="https://cpsgames.org/game/level-devil"><img src="https://cpsgames.org/thumbs/level-devil_2.webp" width="auto" height="auto"
+											alt="Level Devil"
+											class="img-fluid rightside-img mx-auto d-block thumbnail-img">
+									</a>
+								</div><div class="col-4 col-lg-6 mb-2 rightside-img-col">
+									<a href="https://cpsgames.org/game/top-speed-3d"><img src="https://cpsgames.org/thumbs/top-speed-3d_2.webp" width="auto" height="auto"
+											alt="Top Speed 3D"
+											class="img-fluid rightside-img mx-auto d-block thumbnail-img">
+									</a>
+								</div><div class="col-4 col-lg-6 mb-2 rightside-img-col">
+									<a href="https://cpsgames.org/game/hole-io"><img src="https://cpsgames.org/thumbs/hole-io_2.webp" width="auto" height="auto"
+											alt="Hole.io "
+											class="img-fluid rightside-img mx-auto d-block thumbnail-img">
+									</a>
+								</div>					
+				</div>
+			</div>
+		</div>
+		
+
+		
+			<footer>
+		<div class="col-12 bg-black p-4 rounded-top d-sm-flex justify-content-between align-items-center">
+            <div class="col-12 col-sm-5 col-xl-8 mb-2">
+                <a class="navbar-brand" href="https://cpsgames.org/"><img src="https://cpsgames.org/images/logo.webp" width="191" height="55"
+                        alt="CPS Games Logo">
+                </a>
+            </div>
+            <div class="col-12 col-sm-3 col-xl-2 mb-2">
+                <a href="https://chromewebstore.google.com/detail/cpsgames-play-online-game/khhmfpllfjnanmbbahchefbnnomeealb" target="_blank"><img src="https://cpsgames.org/images/chrome-button.svg" class="img-fluid" width="178" height="40" alt="chrome extension" class="me-2"></a>
+            </div>
+            <div class="col-12 col-sm-4 col-xl-2 mb-2">
+                <div class="d-flex">
+                <a href="https://www.facebook.com/profile.php?id=61559120540800" target="_blank"><img src="https://cpsgames.org/images/fb.svg" width="36" height="36" alt="Facebook"
+						class="me-2 ms-2"></a>
+				<a href="https://twitter.com/CPSGamesOrg" target="_blank"><img src="https://cpsgames.org/images/x.svg" width="36" height="36" alt="Twitter" class="me-2"></a>
+				<a href="#"><img src="https://cpsgames.org/images/insta.svg" width="36" height="36" alt="insta"
+						class="me-2"></a>
+				<a href="https://www.youtube.com/@CPSGamesOrg" target="_blank"><img src="https://cpsgames.org/images/yt.svg" width="36" height="36" alt="Youtube"></a>
+                </div>
+            </div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="https://cpsgames.org/content/themes/cpsgames/js/jquery-3.6.1.min.js"></script>
+	<script type="text/javascript" src="https://cpsgames.org/content/themes/cpsgames/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="https://cpsgames.org/content/themes/cpsgames/js/lazysizes.min.js"></script>
+	<script type="text/javascript" src="https://cpsgames.org/content/themes/cpsgames/js/popper.min.js"></script>
+	<script type="text/javascript" src="https://cpsgames.org/content/themes/cpsgames/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cpsgames.org/js/comment-system.js"></script>
+	
+    <script>
+    "use strict";
+    if ($('#tpl-comment-section').length) {
+        const gameId = $('#tpl-comment-section').attr('data-id');
+        const commentSystem = new CommentSystem(gameId);
+    }
+    const formSearch = document.querySelector("form.search-bar");
+    if (formSearch) {
+        formSearch.addEventListener("submit", function (event) {
+            event.preventDefault();
+            const input = formSearch.querySelector("input[name='slug']");
+            const sanitizedValue = input.value.replace(/ /g, "-");
+            input.value = sanitizedValue;
+            if (input.value.length >= 2) {
+                formSearch.submit();
+            }
+        });
+    }
+    var is_fullscreen = false;
+    function open_fullscreen() {
+        let game = document.getElementById("game-area");
+        if (is_fullscreen) {
+            // Exit fullscreen
+            is_fullscreen = false;
+            if (is_mobile_device()) {
+                document.getElementsByClassName("side-header")[0].style.display = "block";
+                game.style.position = "absolute";
+                document.getElementById("mobile-back-button").style.display = "none";
+                document.getElementById("game-player").style.display = "none";
+            } else {
+                if (game.requestFullscreen) {
+                    game.requestFullscreen();
+                } else if (game.mozRequestFullScreen) { /* Firefox */
+                    game.mozRequestFullScreen();
+                } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+                    game.webkitRequestFullscreen();
+                } else if (game.msRequestFullscreen) { /* IE/Edge */
+                    game.msRequestFullscreen();
+                }
+            }
+        } else {
+            // Enter fullscreen
+            is_fullscreen = true;
+            if (is_mobile_device()) {
+                document.getElementsByClassName("side-header")[0].style.display = "none";
+                document.getElementById("game-player").style.display = "block";
+                game.style.position = "fixed";
+                document.getElementById("mobile-back-button").style.display = "flex";
+            } else {
+                if (game.requestFullscreen) {
+                    game.requestFullscreen();
+                } else if (game.mozRequestFullScreen) { /* Firefox */
+                    game.mozRequestFullScreen();
+                } else if (game.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+                    game.webkitRequestFullscreen();
+                } else if (game.msRequestFullscreen) { /* IE/Edge */
+                    game.msRequestFullscreen();
+                }
+            }
+        }
+    };
+    function is_mobile_device() {
+        if (navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    if ($('iframe#game-area').length) {
+        load_leaderboard({ type: 'top', amount: 10 });
+        drag_back_btn(document.getElementById("mobile-back-button"));
+        if (is_mobile_device()) {
+            if ($('#allow_mobile_version').length) {
+                //document.getElementById('mobile-play').style.display = 'block';
+                //document.getElementById('game-player').style.display = 'none';
+            }
+        }
+    }
+    function drag_back_btn(elem) {
+        let is_drag = false;
+        let pos_1 = 0, pos_2 = 0;
+        let last_y = elem.style.top;
+        let touchstart_y = 0;
+        elem.addEventListener("touchend", function (e) {
+            if (is_drag) {
+                is_drag = false;
+            }
+        }, false);
+        elem.addEventListener("touchmove", function (e) {
+            e.preventDefault();
+            let touch = e.changedTouches[0];
+            if (!is_drag) {
+                if (touchstart_y < touch.clientY + 5 || touchstart_y > touch.clientY - 5) {
+                    // Trigger "dragstart"
+                    pos_2 = e.clientY;
+                    is_drag = true;
+                }
+            }
+            if (is_drag) {
+                pos_1 = pos_2 - touch.clientY;
+                pos_2 = touch.clientY;
+                elem.style.top = (pos_2) + "px";
+            }
+        }, false);
+        elem.addEventListener("touchstart", function (e) {
+            let touch = e.changedTouches[0];
+            last_y = elem.style.top;
+            touchstart_y = touch.clientY;
+        }, false);
+        elem.addEventListener("click", function (e) {
+            e.preventDefault();
+            if (last_y == elem.style.top) {
+                open_fullscreen();
+            }
+        }, false);
+    }
+
+    function load_leaderboard(conf) {
+        if ($('#content-leaderboard').length) {
+            let g_id = $('#content-leaderboard').data('id');
+            $.ajax({
+                url: '/includes/api.php',
+                type: 'POST',
+                dataType: 'json',
+                data: { 'action': 'get_scoreboard', 'game-id': g_id, 'conf': JSON.stringify(conf) },
+                complete: function (data) {
+                    if (data.responseText) {
+                        if (JSON.parse(data.responseText).length) {
+                            show_leaderboard(JSON.parse(data.responseText));
+                        }
+                    }
+                }
+            });
+        }
+    }
+    function show_leaderboard(data) {
+        let html = '<table class="scoreboard table"><thead class=""><tr><th scope="col">#</th><th scope="col">Username</th><th scope="col">Score</th><th scope="col">Date</th></tr></thead><tbody>';
+        let index = 1;
+        data.forEach((item) => {
+            html += '<tr><th scope="row">' + index + '</th><td>' + item.username + '</td><td>' + item.score + '</td><td>' + item.created_date.substr(0, 10) + '</td></tr>';
+            index++;
+        });
+        html += '</tbody></table>';
+        $('#content-leaderboard').html(html);
+    }
+
+    (function () {
+        $(".burger-left").click(function () {
+            $(".left-categories").toggleClass("show");
+        });
+
+        $(".burger-right").click(function () {
+            $(".sidebar-right").toggleClass("show");
+        });
+
+        if (window.innerWidth < 1025) {
+            $('.has-dropdown').click(function (d) {
+                d.preventDefault();
+                $(this).children(".drop-ct").toggle();
+            });
+        }
+        /*let game_iframe = $('iframe#game-area');
+        if(game_iframe.length){
+            //is game page
+            game_iframe.attr('src', game_iframe.attr('data-src'));
+        }*/
+
+        var $el = $(".user-avatar");
+        var $ee = $(".user-dropdown");
+        $el.click(function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            $(".user-dropdown").toggleClass('show');
+        });
+        $(document).on('click', function (e) {
+            if (($(e.target) != $el) && ($ee.hasClass('show'))) {
+                $ee.removeClass('show');
+            }
+        });
+        let last_offset = $("#listing1").children().length;
+        let load_amount = 12;
+        $('#load-more1').click((e) => {
+            e.preventDefault();
+            $(this).addClass('disabled');
+            fetch_games(load_amount, 'new');
+        });
+        function fetch_games(amount, sort_by) {
+            $.ajax({
+                url: "/includes/fetch.php",
+                type: 'POST',
+                dataType: 'json',
+                data: { amount: amount, offset: last_offset, sort_by: sort_by },
+                complete: function (data) {
+                    append_content(JSON.parse(data.responseText));
+                }
+            });
+        }
+        function append_content(data) {
+            last_offset += data.length;
+            data.forEach((game) => {
+                let rating = 0;
+                game['upvote'] = Number(game['upvote']);
+                game['downvote'] = Number(game['downvote']);
+                let total_revs = game['upvote'] + game['downvote'];
+                if (total_revs > 0) {
+                    rating = (Math.round((game['upvote'] / (game['upvote'] + game['downvote'])) * 5));
+                }
+                let html = '<div class="col-xl-2 col-lg-3 col-md-4 col-6 grid-1 p-0">';
+                html += '<a href="/game/' + game['slug'] + '/">';
+                html += '<div class="game-item">';
+                html += '<div class="list-game">';
+                html += '<div class="list-thumbnail">';
+                html += '<img src="/content/themes/arcade-one/images/thumb-placeholder1.png" data-src="' + game['thumb_2'] + '" class="small-thumb lazyload" alt="' + game['title'] + '">';
+                html += '</div></div></div></a></div>';
+
+                // html += '<div class="list-info">';
+                // html += '<div class="list-b-play"><img src="/content/themes/arcade-one/images/icon/play.svg" alt=""></div>';
+                // html += '<div class="list-title ellipsis">'+game['title']+'</div>';
+                // html += '<span class="list-rating ellipsis">';
+                // html += '<i class="bi bi-star-fill star-on"></i> '+rating+' ('+total_revs+' Reviews)';
+                // html += '</span></div></div></div></a></div>';
+
+                $("#listing1").append(html);
+                $("#listing1 .column:hidden").slice(0, load_amount).slideDown();
+            });
+            if (data.length < load_amount) {
+                $("#load-more1").text("No More Games").addClass("noContent disabled");
+            } else {
+                $("#load-more1").removeClass('disabled');
+            }
+        }
+        $("#navb").on('show.bs.collapse', function () {
+            $('.user-avatar').hide();
+        });
+        $("#navb").on('hidden.bs.collapse', function () {
+            $('.user-avatar').show();
+        });
+        $('#mobile-play-btn').on('click', function (e) {
+            open_fullscreen();
+        });
+        $('.b-action #favorite').on('click', function (e) {
+            e.preventDefault();
+            let data_id = $('.game-content').attr('data-id');
+            let btn = $(this);
+            $.ajax({
+                url: '/includes/vote.php',
+                type: 'POST',
+                dataType: 'json',
+                data: { 'favorite': true, 'action': 'favorite', 'id': data_id },
+                success: function (data) {
+                    //console.log(data.responseText);
+                },
+                error: function (data) {
+                    //console.log(data.responseText);
+                },
+                complete: function (data) {
+                    console.log(data.responseText);
+                    btn.addClass('active');
+                    btn.addClass('disabled');
+                }
+            });
+        });
+        $('.b-action #upvote').on('click', function (e) {
+            e.preventDefault();
+            let data_id = $('.game-content').attr('data-id');
+            let btn = $(this);
+            $.ajax({
+                url: '/includes/vote.php',
+                type: 'POST',
+                dataType: 'json',
+                data: { 'vote': true, 'action': 'upvote', 'id': data_id },
+                success: function (data) {
+                    //console.log(data.responseText);
+                },
+                error: function (data) {
+                    //console.log(data.responseText);
+                },
+                complete: function (data) {
+                    console.log(data.responseText);
+                    btn.addClass('active');
+                    btn.addClass('disabled');
+                }
+            });
+        });
+        $('.b-action #downvote').on('click', function (e) {
+            e.preventDefault();
+            let data_id = $('.game-content').attr('data-id');
+            let btn = $(this);
+            $.ajax({
+                url: '/includes/vote.php',
+                type: 'POST',
+                dataType: 'json',
+                data: { 'vote': true, 'action': 'downvote', 'id': data_id },
+                success: function (data) {
+                    //console.log(data.responseText);
+                },
+                error: function (data) {
+                    //console.log(data.responseText);
+                },
+                complete: function (data) {
+                    console.log(data.responseText);
+                    btn.addClass('active');
+                    btn.addClass('disabled');
+                }
+            });
+        });
+        $('.user-avatar').on('click', () => {
+            let element = $('.user-links');
+            if (element.is(":hidden")) {
+                element.removeClass('hidden');
+            } else element.addClass('hidden');
+        });
+        $('#btn_prev').on('click', function () {
+            $('.liked-gamelist ul').animate({
+                scrollLeft: '-=150'
+            }, 300, 'swing');
+        });
+
+        $('#btn_next').on('click', function () {
+            $('.liked-gamelist ul').animate({
+                scrollLeft: '+=150'
+            }, 300, 'swing');
+        });
+        $('#f_prev').on('click', function () {
+            $('.favorite-gamelist ul').animate({
+                scrollLeft: '-=150'
+            }, 300, 'swing');
+        });
+
+        $('#f_next').on('click', function () {
+            $('.favorite-gamelist ul').animate({
+                scrollLeft: '+=150'
+            }, 300, 'swing');
+        });
+        $('#t-prev').on('click', function () {
+            $('.list-1-wrapper').animate({
+                scrollLeft: '-=150'
+            }, 300, 'swing');
+        });
+
+        $('#t-next').on('click', function () {
+            $('.list-1-wrapper').animate({
+                scrollLeft: '+=150'
+            }, 300, 'swing');
+        });
+        $('.delete-comment').on('click', function () {
+            let id = $(this).attr('data-id');
+            $.ajax({
+                url: '/includes/comment.php',
+                type: 'POST',
+                dataType: 'json',
+                data: { 'delete': true, 'id': id },
+                success: function (data) {
+                    //console.log(data.responseText);
+                },
+                error: function (data) {
+                    //console.log(data.responseText);
+                },
+                complete: function (data) {
+                    if (data.responseText === 'deleted') {
+                        $('.id-' + id).remove();
+                    }
+                }
+            }, this);
+        });
+        let game_id;
+        if ($('#comments').length) {
+            game_id = $('.game-content').attr('data-id');
+            $.ajax({
+                url: '/includes/comment.php',
+                type: 'POST',
+                dataType: 'json',
+                data: { 'load': true, 'game_id': game_id },
+                success: function (data) {
+                    //console.log(data.responseText);
+                },
+                error: function (data) {
+                    //console.log(data.responseText);
+                },
+                complete: function (data) {
+                    let comments = JSON.parse(data.responseText);
+                    load_comments(convert_comments(comments));
+                }
+            });
+        }
+        function convert_comments(array) {
+            let data = [];
+            array.forEach((item) => {
+                let arr = {
+                    id: Number(item.id),
+                    created: item.created_date,
+                    content: item.comment,
+                    fullname: item.sender_username,
+                    profile_picture_url: item.avatar,
+                };
+                if (Number(item.parent_id)) {
+                    arr.parent = Number(item.parent_id);
+                }
+                if (!arr.fullname) {
+                    arr.fullname = 'Anonymous';
+                }
+                data.push(arr);
+            });
+            return data;
+        }
+        function load_comments(array) {
+            let read_only = false;
+            let avatar = $('.user-avatar img').attr('src');
+            if (!avatar) {
+                avatar = '/images/default_profile.png';
+                read_only = true;
+            }
+            $('#comments').comments({
+                enableUpvoting: false,
+                roundProfilePictures: true,
+                popularText: '',
+                profilePictureURL: avatar,
+                readOnly: read_only,
+                enableNavigation: false,
+                enableEditing: false,
+                getComments: function (success, error) {
+                    success(array);
+                },
+                postComment: function (commentJSON, success, error) {
+                    commentJSON.source = 'jquery-comments';
+                    commentJSON.send = true;
+                    commentJSON.game_id = game_id;
+                    $.ajax({
+                        type: 'post',
+                        url: '/includes/comment.php',
+                        data: commentJSON,
+                        success: function (comment) {
+                            console.log(comment);
+                            success(commentJSON)
+                        },
+                        error: error
+                    });
+                }
+            });
+        }
+    })();
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Toggle submenu on click
+        document.querySelectorAll('.dropdown-submenu > a').forEach(function (element) {
+            element.addEventListener('click', function (e) {
+                // Prevent default action and stop event propagation
+                e.preventDefault();
+                e.stopPropagation();
+
+                let submenu = this.nextElementSibling;
+                submenu.classList.toggle('show'); // Toggle 'show' class to display or hide submenu
+            });
+        });
+
+        // Close all submenus when the parent dropdown is closed
+        document.querySelectorAll('.dropdown').forEach(function (dropdown) {
+            dropdown.addEventListener('hide.bs.dropdown', function () {
+                this.querySelectorAll('.submenu').forEach(function (submenu) {
+                    submenu.classList.remove('show');
+                });
+            });
+        });
+
+        // Stop click events inside dropdown from closing the dropdown
+        document.querySelectorAll('.dropdown-menu').forEach(function (element) {
+            element.addEventListener('click', function (e) {
+                e.stopPropagation();
+            });
+        });
+    });
+
+    if ($('#tpl-comment-section').length) {
+        const gameId = $('#tpl-comment-section').attr('data-id');
+        const commentSystem = new CommentSystem(gameId);
+    }
+    $(function () {
+        const formSearch = document.querySelector("form.search-bar");
+        if (formSearch) {
+            formSearch.addEventListener("submit", function (event) {
+                event.preventDefault();
+                const input = formSearch.querySelector("input[name='slug']");
+                const sanitizedValue = input.value.replace(/ /g, "-");
+                input.value = sanitizedValue;
+                if (input.value.length >= 2) {
+                    formSearch.submit();
+                }
+            });
+        }
+        // Load more games
+        let last_offset = 0;
+        let load_amount = 0;
+        const newGamesContainer = $('#section-new-games');
+
+        if (newGamesContainer.length) {
+            load_amount = newGamesContainer.children().length;
+            last_offset = newGamesContainer.children().length;
+            if (load_amount < 12) {
+                $('.btn-load-more-games').remove();
+            } else {
+                $('.btn-load-more-games').click(() => {
+                    fetchMoreGames(load_amount, 'new');
+                });
+            }
+        }
+
+        async function fetchMoreGames(amount, sort_by) {
+            try {
+                const response = await $.ajax({
+                    url: "/includes/fetch.php",
+                    type: 'POST',
+                    dataType: 'json',
+                    data: { amount: amount, offset: last_offset, sort_by: sort_by },
+                });
+                appendFetchedGames(response);
+            } catch (error) {
+                console.log(error);
+            }
+        }
+
+        function appendFetchedGames(data) {
+            last_offset += data.length;
+            const templateHTML = $('.item-append-template').html();  // Get the inner HTML of the template
+            data.forEach((item) => {
+                let rating = 0;
+                item['upvote'] = Number(item['upvote']);
+                item['downvote'] = Number(item['downvote']);
+                let totalRevs = item['upvote'] + item['downvote'];
+                if (totalRevs > 0) {
+                    rating = (Math.round((item['upvote'] / (item['upvote'] + item['downvote'])) * 5));
+                }
+                // Clone the HTML template
+                let clonedHTML = templateHTML;
+                // Replace placeholders
+                console.log(item['title'])
+                clonedHTML = clonedHTML.replace(/{{slug}}/g, item['slug']);
+                clonedHTML = clonedHTML.replace(/{{thumbnail}}/g, item['thumb_2']);
+                clonedHTML = clonedHTML.replace(/{{title}}/g, item['title']);
+                clonedHTML = clonedHTML.replace(/{{rating}}/g, rating);
+                // Convert the HTML string to a jQuery object
+                const clonedElement = $(clonedHTML);
+                // Further modifications if necessary, for example, replacing the rating image src
+                // Append the new element to newGamesContainer
+                newGamesContainer.append(clonedElement);
+            });
+            if (data.length < load_amount) {
+                $('.btn-load-more-games').remove();
+            }
+        }
+        // End
+        var $nav = $('nav.greedy');
+        var $btn = $('nav.greedy button');
+        var $vlinks = $('nav.greedy .links');
+        var $hlinks = $('nav.greedy .hidden-links');
+
+        var numOfItems = 0;
+        var totalSpace = 0;
+        var breakWidths = [];
+
+        // Get initial state
+        $vlinks.children().outerWidth(function (i, w) {
+            totalSpace += w;
+            numOfItems += 1;
+            breakWidths.push(totalSpace);
+        });
+
+        var availableSpace, numOfVisibleItems, requiredSpace;
+
+        function check() {
+
+            // Get instant state
+            availableSpace = $vlinks.width() - 10;
+            numOfVisibleItems = $vlinks.children().length;
+            requiredSpace = breakWidths[numOfVisibleItems - 1];
+
+            // There is not enought space
+            if (requiredSpace > availableSpace) {
+                $vlinks.children().last().prependTo($hlinks);
+                numOfVisibleItems -= 1;
+                check();
+                // There is more than enough space
+            } else if (availableSpace > breakWidths[numOfVisibleItems]) {
+                $hlinks.children().first().appendTo($vlinks);
+                numOfVisibleItems += 1;
+            }
+            // Update the button accordingly
+            $btn.attr("count", numOfItems - numOfVisibleItems);
+            if (numOfVisibleItems === numOfItems) {
+                $btn.addClass('hidden');
+            } else $btn.removeClass('hidden');
+        }
+
+        // Window listeners
+        $(window).resize(function () {
+            check();
+        });
+
+        $btn.on('click', function () {
+            $hlinks.toggleClass('hidden');
+        });
+
+        check();
+
+    });   
+    </script>
+	<script type="text/javascript" src="https://cpsgames.org/content/themes/cpsgames/js/custom.js"></script>
+	<script type="text/javascript" src="https://cpsgames.org/js/stats.js"></script>
+
+	<script>
+        document.querySelectorAll(".slider").forEach(slider => {
+            const track = slider.querySelector(".slider__track");
+            const prev = slider.querySelector(".slider-prev");
+            const next = slider.querySelector(".slider-next");
+
+            if (track) {
+                prev.addEventListener("click", () => {
+                    next.removeAttribute("disabled");
+                    track.scrollTo({
+                        left: track.scrollLeft - track.firstElementChild.offsetWidth,
+                        behavior: "smooth"
+                    });
+                });
+
+                next.addEventListener("click", () => {
+                    prev.removeAttribute("disabled");
+                    track.scrollTo({
+                        left: track.scrollLeft + track.firstElementChild.offsetWidth,
+                        behavior: "smooth"
+                    });
+                });
+
+                track.addEventListener("scroll", () => {
+                    const trackScrollWidth = track.scrollWidth;
+                    const trackOuterWidth = track.clientWidth;
+
+                    prev.removeAttribute("disabled");
+                    next.removeAttribute("disabled");
+                
+                    if (track.scrollLeft <= 0) {
+                        prev.setAttribute("disabled", "");
+                    }
+                    let scrollPos = Math.ceil(track.scrollLeft);
+                    if (scrollPos >= trackScrollWidth - trackOuterWidth) {
+                        next.setAttribute("disabled", "");
+                    }
+                });
+            }
+        });;
+    </script>
+    <script src="https://cpsgames.org/js/header.js"></script>
+		<div id="cookieConsentBanner">
+		<div class="cookie-consent-msg">
+			This website uses cookies to ensure you get the best experience on our website.
+		</div>
+		<div class="cookie-consent-actions">
+			<button class="btn btn-primary btn-cookie-accept" id="acceptCookies">Accept</button>
+			<button class="btn btn-secondary btn-cookie-decline" id="declineCookies">Decline</button>
+		</div>
+	</div>
+		<script type="text/javascript">
+	var c=getCookie("cookieConsent");null===c&&(document.getElementById("cookieConsentBanner").style.display="flex"),document.getElementById("acceptCookies").addEventListener("click",function(){setCookie("cookieConsent","true",365),document.getElementById("cookieConsentBanner").style.display="none"}),document.getElementById("declineCookies").addEventListener("click",function(){setCookie("cookieConsent","false",365),document.getElementById("cookieConsentBanner").style.display="none"});function setCookie(e,t,n){var o="";n&&(o=new Date,o.setTime(o.getTime()+24*n*60*60*1e3),o="; expires="+o.toUTCString()),document.cookie=e+"="+t+o+"; path=/"}function getCookie(e){for(var t=document.cookie.split(";"),n=0;n<t.length;n++){var o=t[n].split("=");if(e==o[0].trim())return o[1]}return null}
+	</script>
+		<div id="report-modal" class="report-modal">
+	<div class="report-modal-content">
+		<span class="close">&times;</span>
+		<p><strong>Report Game</strong></p>
+		<form id="report-form" enctype="multipart">
+			<div>
+				<div class="report-label" style="background-color: #ffdd24;">
+					<input type="radio" id="r-bug" name="report[]" value="bug" checked>
+					<label for="r-bug">Bug</label>
+				</div>
+				<div class="report-label" style="background-color: #fd6d6d;">
+					<input type="radio" id="r-error" name="report[]" value="error">
+					<label for="r-error">Error</label>
+				</div>
+				<div class="report-label" style="background-color: #a9df8b;">
+					<input type="radio" id="r-other" name="report[]" value="other">
+					<label for="r-other">Other</label>
+				</div>
+			</div>
+			<textarea style="width: 100%" rows="3" name="comment" maxlength="150" autocomplete="off" placeholder="Optional"></textarea>
+			<input type="submit" style="margin-top: 10px;" value="Submit">
+		</form>
+	</div>
+</div>
+<script type="text/javascript" src="https://cpsgames.org/content/plugins/game-reports/script.js"></script>
+</body>
+</html>
+	</div>
+</div>
